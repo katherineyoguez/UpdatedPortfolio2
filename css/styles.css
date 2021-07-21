@@ -991,6 +991,28 @@ section#contact .section-heading {
   color: #fff;
 }
 
+.contact-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-info.text-box {
+  background: #000;
+  color: #fff;
+  border: none;
+  width: calc(50% - 10 px);
+  height: 50px;
+  padding: 12px;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  opacity: 0.9;
+}
+
+
 
 .footer {
   text-align: center;
