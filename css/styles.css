@@ -88,10 +88,6 @@ p {
 
 ul {
   padding-left: 2rem;
-}
-
-
-ul {
   margin-top: 0;
   margin-bottom: 1rem;
 }
@@ -116,8 +112,6 @@ button:focus:not(:focus-visible) {
 
 input,
 button,
-select,
-optgroup,
 textarea {
   margin: 0;
   font-family: inherit;
@@ -134,12 +128,7 @@ textarea {
 
 
 .container,
-.container-fluid,
-.container-xxl,
-.container-xl,
-.container-lg,
-.container-md,
-.container-sm {
+.container-fluid {
   width: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
@@ -148,27 +137,27 @@ textarea {
 }
 
 @media (min-width: 576px) {
-  .container-sm, .container {
+  .container {
     max-width: 540px;
   }
 }
 @media (min-width: 768px) {
-  .container-md, .container-sm, .container {
+  .container {
     max-width: 720px;
   }
 }
 @media (min-width: 992px) {
-  .container-lg, .container-md, .container-sm, .container {
+  .container {
     max-width: 960px;
   }
 }
 @media (min-width: 1200px) {
-  .container-xl, .container-lg, .container-md, .container-sm, .container {
+ .container {
     max-width: 1140px;
   }
 }
 @media (min-width: 1400px) {
-  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+  .container {
     max-width: 1320px;
   }
 }
